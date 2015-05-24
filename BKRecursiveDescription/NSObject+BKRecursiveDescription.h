@@ -1,7 +1,7 @@
 // Copyright 2014-present 650 Industries. All rights reserved.
 
-@import Foundation;
-@import UIKit.UIGeometry;
+#import <Foundation/Foundation.h>
+#import <UIKit/UIGeometry.h>
 
 @interface NSObject (BKRecursiveDescription)
 

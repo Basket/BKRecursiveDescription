@@ -14,9 +14,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6B581AB1198701F1005C3F79"
-               BuildableName = "libBKRecursiveDescription.a"
+               BlueprintIdentifier = "6B7760E91B123F9B00D24AFE"
+               BuildableName = "BKRecursiveDescription.framework"
                BlueprintName = "BKRecursiveDescription"
+               ReferencedContainer = "container:BKRecursiveDescription.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6B7760F31B123F9C00D24AFE"
+               BuildableName = "BKRecursiveDescriptionTests.xctest"
+               BlueprintName = "BKRecursiveDescriptionTests"
                ReferencedContainer = "container:BKRecursiveDescription.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,7 +42,26 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6B7760F31B123F9C00D24AFE"
+               BuildableName = "BKRecursiveDescriptionTests.xctest"
+               BlueprintName = "BKRecursiveDescriptionTests"
+               ReferencedContainer = "container:BKRecursiveDescription.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "6B7760E91B123F9B00D24AFE"
+            BuildableName = "BKRecursiveDescription.framework"
+            BlueprintName = "BKRecursiveDescription"
+            ReferencedContainer = "container:BKRecursiveDescription.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -42,8 +75,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6B581AB1198701F1005C3F79"
-            BuildableName = "libBKRecursiveDescription.a"
+            BlueprintIdentifier = "6B7760E91B123F9B00D24AFE"
+            BuildableName = "BKRecursiveDescription.framework"
             BlueprintName = "BKRecursiveDescription"
             ReferencedContainer = "container:BKRecursiveDescription.xcodeproj">
          </BuildableReference>
@@ -60,8 +93,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6B581AB1198701F1005C3F79"
-            BuildableName = "libBKRecursiveDescription.a"
+            BlueprintIdentifier = "6B7760E91B123F9B00D24AFE"
+            BuildableName = "BKRecursiveDescription.framework"
             BlueprintName = "BKRecursiveDescription"
             ReferencedContainer = "container:BKRecursiveDescription.xcodeproj">
          </BuildableReference>

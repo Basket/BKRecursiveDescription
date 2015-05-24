@@ -7,32 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6B581AB6198701F1005C3F79 /* BKRecursiveDescription.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B581AB5198701F1005C3F79 /* BKRecursiveDescription.h */; };
-		6B581AD519870213005C3F79 /* NSArray+BKRecursiveDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B581AD119870213005C3F79 /* NSArray+BKRecursiveDescription.m */; };
-		6B581AD619870213005C3F79 /* NSDictionary+BKRecursiveDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B581AD219870213005C3F79 /* NSDictionary+BKRecursiveDescription.m */; };
-		6B581AD719870213005C3F79 /* NSObject+BKRecursiveDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B581AD319870213005C3F79 /* NSObject+BKRecursiveDescription.m */; };
-		6B581AD819870213005C3F79 /* NSSet+BKRecursiveDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B581AD419870213005C3F79 /* NSSet+BKRecursiveDescription.m */; };
-		6B581AD91987021F005C3F79 /* NSObject+BKRecursiveDescription.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B581ACD19870213005C3F79 /* NSObject+BKRecursiveDescription.h */; };
-		6B581ADA1987021F005C3F79 /* BKDescribable.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B581AD019870213005C3F79 /* BKDescribable.h */; };
+		6B7760F51B123F9C00D24AFE /* BKRecursiveDescription.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B7760EA1B123F9B00D24AFE /* BKRecursiveDescription.framework */; };
+		6B7760FC1B123F9C00D24AFE /* BKRecursiveDescriptionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B7760FB1B123F9C00D24AFE /* BKRecursiveDescriptionTests.m */; };
+		6B7761031B12402600D24AFE /* NSArray+BKRecursiveDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B581AD119870213005C3F79 /* NSArray+BKRecursiveDescription.m */; };
+		6B7761041B12402600D24AFE /* NSDictionary+BKRecursiveDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B581AD219870213005C3F79 /* NSDictionary+BKRecursiveDescription.m */; };
+		6B7761051B12402600D24AFE /* NSObject+BKRecursiveDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B581AD319870213005C3F79 /* NSObject+BKRecursiveDescription.m */; };
+		6B7761061B12402600D24AFE /* NSSet+BKRecursiveDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B581AD419870213005C3F79 /* NSSet+BKRecursiveDescription.m */; };
+		6B7761071B12403100D24AFE /* BKDescribable.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B581AD019870213005C3F79 /* BKDescribable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B7761081B12403100D24AFE /* BKRecursiveDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B581AB5198701F1005C3F79 /* BKRecursiveDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B7761091B12403100D24AFE /* NSArray+BKRecursiveDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B581ACF19870213005C3F79 /* NSArray+BKRecursiveDescription.h */; };
+		6B77610A1B12403100D24AFE /* NSDictionary+BKRecursiveDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B581ACE19870213005C3F79 /* NSDictionary+BKRecursiveDescription.h */; };
+		6B77610B1B12403100D24AFE /* NSObject+BKRecursiveDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B581ACD19870213005C3F79 /* NSObject+BKRecursiveDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B77610C1B12403100D24AFE /* NSSet+BKRecursiveDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B581ACC19870213005C3F79 /* NSSet+BKRecursiveDescription.h */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		6B581AB0198701F1005C3F79 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-				6B581ADA1987021F005C3F79 /* BKDescribable.h in CopyFiles */,
-				6B581AB6198701F1005C3F79 /* BKRecursiveDescription.h in CopyFiles */,
-				6B581AD91987021F005C3F79 /* NSObject+BKRecursiveDescription.h in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
+/* Begin PBXContainerItemProxy section */
+		6B7760F61B123F9C00D24AFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B581AAA198701F1005C3F79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B7760E91B123F9B00D24AFE;
+			remoteInfo = BKRecursiveDescription;
 		};
-/* End PBXCopyFilesBuildPhase section */
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6B581AB2198701F1005C3F79 /* libBKRecursiveDescription.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBKRecursiveDescription.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B581AB5198701F1005C3F79 /* BKRecursiveDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BKRecursiveDescription.h; sourceTree = "<group>"; };
 		6B581ACC19870213005C3F79 /* NSSet+BKRecursiveDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+BKRecursiveDescription.h"; sourceTree = "<group>"; };
 		6B581ACD19870213005C3F79 /* NSObject+BKRecursiveDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BKRecursiveDescription.h"; sourceTree = "<group>"; };
@@ -43,13 +42,26 @@
 		6B581AD219870213005C3F79 /* NSDictionary+BKRecursiveDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+BKRecursiveDescription.m"; sourceTree = "<group>"; };
 		6B581AD319870213005C3F79 /* NSObject+BKRecursiveDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BKRecursiveDescription.m"; sourceTree = "<group>"; };
 		6B581AD419870213005C3F79 /* NSSet+BKRecursiveDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+BKRecursiveDescription.m"; sourceTree = "<group>"; };
+		6B7760C51B11D6BF00D24AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B7760EA1B123F9B00D24AFE /* BKRecursiveDescription.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BKRecursiveDescription.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B7760F41B123F9C00D24AFE /* BKRecursiveDescriptionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BKRecursiveDescriptionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B7760FA1B123F9C00D24AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B7760FB1B123F9C00D24AFE /* BKRecursiveDescriptionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BKRecursiveDescriptionTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6B581AAF198701F1005C3F79 /* Frameworks */ = {
+		6B7760E61B123F9B00D24AFE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B7760F11B123F9C00D24AFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B7760F51B123F9C00D24AFE /* BKRecursiveDescription.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +71,8 @@
 		6B581AA9198701F1005C3F79 = {
 			isa = PBXGroup;
 			children = (
-				6B581AB4198701F1005C3F79 /* BKRecursiveDescription */,
+				6B7760C31B11D6BF00D24AFE /* BKRecursiveDescription */,
+				6B7760F81B123F9C00D24AFE /* BKRecursiveDescriptionTests */,
 				6B581AB3198701F1005C3F79 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,12 +80,13 @@
 		6B581AB3198701F1005C3F79 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6B581AB2198701F1005C3F79 /* libBKRecursiveDescription.a */,
+				6B7760EA1B123F9B00D24AFE /* BKRecursiveDescription.framework */,
+				6B7760F41B123F9C00D24AFE /* BKRecursiveDescriptionTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6B581AB4198701F1005C3F79 /* BKRecursiveDescription */ = {
+		6B7760C31B11D6BF00D24AFE /* BKRecursiveDescription */ = {
 			isa = PBXGroup;
 			children = (
 				6B581AD019870213005C3F79 /* BKDescribable.h */,
@@ -85,20 +99,63 @@
 				6B581AD319870213005C3F79 /* NSObject+BKRecursiveDescription.m */,
 				6B581ACC19870213005C3F79 /* NSSet+BKRecursiveDescription.h */,
 				6B581AD419870213005C3F79 /* NSSet+BKRecursiveDescription.m */,
+				6B7760C41B11D6BF00D24AFE /* Supporting Files */,
 			);
 			path = BKRecursiveDescription;
 			sourceTree = "<group>";
 		};
+		6B7760C41B11D6BF00D24AFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B7760C51B11D6BF00D24AFE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B7760F81B123F9C00D24AFE /* BKRecursiveDescriptionTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B7760FB1B123F9C00D24AFE /* BKRecursiveDescriptionTests.m */,
+				6B7760F91B123F9C00D24AFE /* Supporting Files */,
+			);
+			path = BKRecursiveDescriptionTests;
+			sourceTree = "<group>";
+		};
+		6B7760F91B123F9C00D24AFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B7760FA1B123F9C00D24AFE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		6B7760E71B123F9B00D24AFE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B7761071B12403100D24AFE /* BKDescribable.h in Headers */,
+				6B7761081B12403100D24AFE /* BKRecursiveDescription.h in Headers */,
+				6B77610B1B12403100D24AFE /* NSObject+BKRecursiveDescription.h in Headers */,
+				6B7761091B12403100D24AFE /* NSArray+BKRecursiveDescription.h in Headers */,
+				6B77610A1B12403100D24AFE /* NSDictionary+BKRecursiveDescription.h in Headers */,
+				6B77610C1B12403100D24AFE /* NSSet+BKRecursiveDescription.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		6B581AB1198701F1005C3F79 /* BKRecursiveDescription */ = {
+		6B7760E91B123F9B00D24AFE /* BKRecursiveDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6B581AC6198701F1005C3F79 /* Build configuration list for PBXNativeTarget "BKRecursiveDescription" */;
+			buildConfigurationList = 6B7760FD1B123F9C00D24AFE /* Build configuration list for PBXNativeTarget "BKRecursiveDescription" */;
 			buildPhases = (
-				6B581AAE198701F1005C3F79 /* Sources */,
-				6B581AAF198701F1005C3F79 /* Frameworks */,
-				6B581AB0198701F1005C3F79 /* CopyFiles */,
+				6B7760E51B123F9B00D24AFE /* Sources */,
+				6B7760E61B123F9B00D24AFE /* Frameworks */,
+				6B7760E71B123F9B00D24AFE /* Headers */,
+				6B7760E81B123F9B00D24AFE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -106,8 +163,26 @@
 			);
 			name = BKRecursiveDescription;
 			productName = BKRecursiveDescription;
-			productReference = 6B581AB2198701F1005C3F79 /* libBKRecursiveDescription.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 6B7760EA1B123F9B00D24AFE /* BKRecursiveDescription.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6B7760F31B123F9C00D24AFE /* BKRecursiveDescriptionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B7761001B123F9C00D24AFE /* Build configuration list for PBXNativeTarget "BKRecursiveDescriptionTests" */;
+			buildPhases = (
+				6B7760F01B123F9C00D24AFE /* Sources */,
+				6B7760F11B123F9C00D24AFE /* Frameworks */,
+				6B7760F21B123F9C00D24AFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B7760F71B123F9C00D24AFE /* PBXTargetDependency */,
+			);
+			name = BKRecursiveDescriptionTests;
+			productName = BKRecursiveDescriptionTests;
+			productReference = 6B7760F41B123F9C00D24AFE /* BKRecursiveDescriptionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -118,8 +193,11 @@
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "650 Industries, Inc.";
 				TargetAttributes = {
-					6B581AB1198701F1005C3F79 = {
-						CreatedOnToolsVersion = 6.0;
+					6B7760E91B123F9B00D24AFE = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					6B7760F31B123F9C00D24AFE = {
+						CreatedOnToolsVersion = 6.3.1;
 					};
 				};
 			};
@@ -135,24 +213,58 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6B581AB1198701F1005C3F79 /* BKRecursiveDescription */,
+				6B7760E91B123F9B00D24AFE /* BKRecursiveDescription */,
+				6B7760F31B123F9C00D24AFE /* BKRecursiveDescriptionTests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		6B7760E81B123F9B00D24AFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B7760F21B123F9C00D24AFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		6B581AAE198701F1005C3F79 /* Sources */ = {
+		6B7760E51B123F9B00D24AFE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B581AD519870213005C3F79 /* NSArray+BKRecursiveDescription.m in Sources */,
-				6B581AD619870213005C3F79 /* NSDictionary+BKRecursiveDescription.m in Sources */,
-				6B581AD719870213005C3F79 /* NSObject+BKRecursiveDescription.m in Sources */,
-				6B581AD819870213005C3F79 /* NSSet+BKRecursiveDescription.m in Sources */,
+				6B7761031B12402600D24AFE /* NSArray+BKRecursiveDescription.m in Sources */,
+				6B7761041B12402600D24AFE /* NSDictionary+BKRecursiveDescription.m in Sources */,
+				6B7761051B12402600D24AFE /* NSObject+BKRecursiveDescription.m in Sources */,
+				6B7761061B12402600D24AFE /* NSSet+BKRecursiveDescription.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B7760F01B123F9C00D24AFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B7760FC1B123F9C00D24AFE /* BKRecursiveDescriptionTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B7760F71B123F9C00D24AFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B7760E91B123F9B00D24AFE /* BKRecursiveDescription */;
+			targetProxy = 6B7760F61B123F9C00D24AFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		6B581AC4198701F1005C3F79 /* Debug */ = {
@@ -229,21 +341,93 @@
 			};
 			name = Release;
 		};
-		6B581AC7198701F1005C3F79 /* Debug */ = {
+		6B7760FE1B123F9C00D24AFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				OTHER_LDFLAGS = "-ObjC";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BKRecursiveDescription/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		6B581AC8198701F1005C3F79 /* Release */ = {
+		6B7760FF1B123F9C00D24AFE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				OTHER_LDFLAGS = "-ObjC";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = BKRecursiveDescription/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6B7761011B123F9C00D24AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BKRecursiveDescriptionTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B7761021B123F9C00D24AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = BKRecursiveDescriptionTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -259,14 +443,21 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6B581AC6198701F1005C3F79 /* Build configuration list for PBXNativeTarget "BKRecursiveDescription" */ = {
+		6B7760FD1B123F9C00D24AFE /* Build configuration list for PBXNativeTarget "BKRecursiveDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6B581AC7198701F1005C3F79 /* Debug */,
-				6B581AC8198701F1005C3F79 /* Release */,
+				6B7760FE1B123F9C00D24AFE /* Debug */,
+				6B7760FF1B123F9C00D24AFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+		};
+		6B7761001B123F9C00D24AFE /* Build configuration list for PBXNativeTarget "BKRecursiveDescriptionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B7761011B123F9C00D24AFE /* Debug */,
+				6B7761021B123F9C00D24AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
