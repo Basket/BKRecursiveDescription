@@ -1,4 +1,5 @@
-// Copyright 2014-present 650 Industries. All rights reserved.
+// Copyright 2014-present 650 Industries.
+// Copyright 2015-present Andrew Toulouse.
 
 #import "NSDictionary+BKRecursiveDescription.h"
 
